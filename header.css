@@ -1,0 +1,89 @@
+/* 
+header only
+*/
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #232830;
+  align-items: center;
+  justify-content: center;
+
+}
+
+header ul{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-evenly;
+  padding-left: 0;
+}
+
+.logo-text {
+  color: white;
+  font-size: 20px;
+  font-family: "radley";
+  font-weight: 800;
+}
+
+.item-link  {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  
+}
+.container-head {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.item {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+header ul li {
+  display: flex;
+  flex: 1;
+
+}
+
+.pen-png {
+  width: 150px;
+  height: auto;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-1 {
+  font-size: 45px;
+  color: rgb(231, 93, 121);
+  font-style: italic;
+}
+
+.text-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+}
+
+@media (max-width: 660px) {
+  header {
+    height: auto;          /* biar tinggi menyesuaikan konten */
+    padding: 10px 0;       /* beri jarak atas-bawah */
+    flex-direction: column;/* susun ke bawah */
+    align-items: center;   /* tetap center */
+  }
+
+  .container-head {
+    margin-bottom: 15px;   /* jarak UL ke welcome */
+  }
+}

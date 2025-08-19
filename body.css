@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding-top: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232830;
+  padding-top: 5vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-bottom: 5vh;
+}
