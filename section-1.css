@@ -38,7 +38,7 @@ hr {
   border: none;
   border-radius: 20px;
   background: #232830;
-  color: rgba(255, 255, 255, 0.651);
+  color: rgba(0, 0, 0, 0.651);
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s;
